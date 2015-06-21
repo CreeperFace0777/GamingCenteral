@@ -10,7 +10,7 @@ My Gaming Website Project
 
 ## Members/Contributers:
 
-`Jack`: Leader
+`Jack`: Leader;
 	Works On Main Code, Merging Pull Requests And Closing Bugs
 
 ###HAPPY CODING!
