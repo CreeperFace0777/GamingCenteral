@@ -1,0 +1,9 @@
+body {
+	background: green;
+	font-family: grobold;
+}
+
+nav ul li {
+	display: inline-block;
+	font-size: 30px;
+}
