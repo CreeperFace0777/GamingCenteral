@@ -14,7 +14,7 @@ My Gaming Website Project
 ## Members/Contributers:
 
 `Jack`: Leader;
-	Works On Main Code, Merging Pull Requests, Closing Bugs and Adding Photos
+	Works On Main Code, Merging Pull Requests And Closing Bugs
 
 `Moggsy`: Worker;
 	Works On Adding Games To The Website, Finding Images And Reporting Bugs
