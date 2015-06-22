@@ -1,7 +1,7 @@
 # GamingCenteral
 My Gaming Website Project
 
-## Rules And Help:
+## Rules, Help And Guidelines:
 
 - Don't Make Annonymous Additions To The Webpage
 - Dont Make Silly Pull Requests, As They Will Be Deleted
