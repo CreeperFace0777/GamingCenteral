@@ -17,6 +17,6 @@ My Gaming Website Project
 	Works On Main Code, Merging Pull Requests And Closing Bugs
 
 `Moggsy`: Worker;
-	Nothing BRO, rock on litt'l dood
+	Works On Adding Games To The Website, Finding Images And Reporting Bugs
 
 ###HAPPY CODING!
