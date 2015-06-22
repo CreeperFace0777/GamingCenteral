@@ -1,9 +1,48 @@
 body {
-	background: green;
+	background: #67EB60;
 	font-family: grobold;
 }
 
-nav ul li {
+header nav ul li {
 	display: inline-block;
 	font-size: 30px;
+	font-family: hacked;
+	padding: 5px 15px;
+	list-style-type: none;
 }
+
+
+#EAR {
+	width: 20%;
+	padding: 0px 5px 2px 0px;
+}
+
+header nav ul{
+	margin: 0;
+	display: inline;
+	padding: 0 0 0 3px;
+}
+
+header nav h1 {
+	display: inline;
+	padding: 0px 30px 0px 0px;
+	margin: 0px;
+	color: #245722;
+	font-family: hacked;
+	font-size: 38px;
+}
+
+a {
+	color: #245722;
+	text-decoration: none;
+}
+
+header nav hr {
+	color: black;
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	border-style: solid;
+	border-color: black;
+}
+
