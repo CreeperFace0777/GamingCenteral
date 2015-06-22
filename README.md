@@ -15,4 +15,7 @@ My Gaming Website Project
 `Jack`: Leader;
 	Works On Main Code, Merging Pull Requests And Closing Bugs
 
+`Moggsy`: Worker;
+	Works On Adding Games To The Website, Reporting Bugs
+
 ###HAPPY CODING!
