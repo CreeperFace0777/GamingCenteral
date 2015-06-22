@@ -5,7 +5,7 @@ My Gaming Website Project
 
 - Don't Make Annonymous Additions To The Webpage
 - Dont Make Silly Pull Requests, As They Will Be Deleted
-- Only Issue If There Is A Problem With Code (Bug), Or If You Have A Suggestion
+- Only Issue If There Is A Problem With Code (Bug), Or If You Have A Suggestion For Code
 
 
 ## Members/Contributers:
