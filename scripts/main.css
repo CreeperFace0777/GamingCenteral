@@ -1,12 +1,12 @@
 body {
 	background: #67EB60;
-	font-family: grobold;
+	font-family: GROBOLD;
 }
 
 header nav ul li {
 	display: inline-block;
 	font-size: 30px;
-	font-family: hacked;
+	font-family: HACKED;
 	padding: 5px 15px;
 	list-style-type: none;
 }
@@ -28,7 +28,7 @@ header nav h1 {
 	padding: 0px 30px 0px 0px;
 	margin: 0px;
 	color: #245722;
-	font-family: hacked;
+	font-family: HACKED;
 	font-size: 38px;
 }
 

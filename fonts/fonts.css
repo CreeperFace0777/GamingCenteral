@@ -1,0 +1,18 @@
+@font-face {
+	font-family: "HACKED";
+	src: url('fonts/HACKED.eot') format('embedded-opentype'),
+	url('HACKED.ttf') format('opentype');
+}
+
+@font-face {
+	font-family: "GROBOLD";
+	src: url('fonts/GROBOLD.eot') format('embedded-opentype'),
+	url('GROBOLD.ttf') format('opentype');
+}
+
+@font-face {
+	font-family: "Minecraftia";
+	src: url('fonts/Minecraftia-Regular.eot') format('embedded-opentype'),
+	url('Minecraftia-Regular.ttf') format('opentype');
+}
+
