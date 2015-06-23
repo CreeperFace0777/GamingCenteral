@@ -17,6 +17,6 @@ My Gaming Website Project
 	Works On Main Code, Merging Pull Requests, Closing Bugs and Adding Photos
 
 `Moggsy`: Worker;
-	Works On Adding Games To The Website, Finding Images And Reporting Bugs and jaxs assistant
+	Works On Adding Games To The Website, Finding Images And Reporting Bugs
 
 ###HAPPY CODING!
