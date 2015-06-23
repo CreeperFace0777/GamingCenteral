@@ -8,6 +8,8 @@ header nav ul li {
 	font-size: 30px;
 	font-family: HACKED;
 	padding: 5px 15px;
+	-moz-padding: 5px 15px;
+	-webkit-padding: 5px 15px;
 	list-style-type: none;
 }
 
@@ -18,15 +20,23 @@ header nav ul li {
 }
 
 header nav ul{
-	margin: 0;
 	display: inline;
-	padding: 0 0 0 3px;
+	padding: 0px 0px 0px 3px;
+	-moz-padding: 0px 0px 0px 3px;
+	-webkit-padding: 0px 0px 0px 3px;
+	margin: 0px;
+	-moz-margin: 0px;
+	-webkit-margin: 0px;
 }
 
 header nav h1 {
 	display: inline;
 	padding: 0px 30px 0px 0px;
+	-moz-padding: 0px 30px 0px 0px;
+	-webkit-padding: 0px 30px 0px 0px;
 	margin: 0px;
+	-moz-margin: 0px;
+	-webkit-margin: 0px;
 	color: #245722;
 	font-family: HACKED;
 	font-size: 38px;
@@ -42,6 +52,10 @@ header nav hr {
 	background-color: black;
 	padding: 0px;
 	margin: 0px;
+	-moz-padding: 0px;
+	-moz-margin: 0px;
+	-webkit-padding: 0px;
+	-webkit-margin: 0px;
 	border-style: solid;
 	border-color: black;
 }
