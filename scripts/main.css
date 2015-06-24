@@ -13,6 +13,11 @@ header nav ul li {
 	list-style-type: none;
 }
 
+#atPad {
+	padding: 0px 0px 0px 10px
+	-moz-padding: 0px 0px 0px 10px
+	-webkit-padding: 0px 0px 0px 10px
+}
 
 #EAR {
 	width: 20%;
