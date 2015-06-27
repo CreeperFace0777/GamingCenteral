@@ -14,9 +14,9 @@ header nav ul li {
 }
 
 #atPad {
-	padding: 0px 0px 0px 10px
-	-moz-padding: 0px 0px 0px 10px
-	-webkit-padding: 0px 0px 0px 10px
+	padding: 0px 0px 0px 10px;
+	-moz-padding: 0px 0px 0px 10px;
+	-webkit-padding: 0px 0px 0px 10px;
 }
 
 #EAR {
@@ -66,4 +66,3 @@ header nav hr {
 	border-style: solid;
 	border-color: black;
 }
-

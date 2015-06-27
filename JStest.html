@@ -1,9 +1,15 @@
 <!doctype html>
 <html>
 	<head>
+
 		<title>Gaming Centeral</title>
 		<link rel="stylesheet" type="text/css" href="scripts\main.css" />
 		<link rel="stylesheet" type="text/css" href="fonts\fonts.css" />
+		<link rel="shortcut icon" href="styles\favicon.png" type="image/x-icon" />
+		<link rel="favicon" href="styles\favicon.png" type="image/x-icon" />
+		<style>
+			.hide {display:none;}
+		</style>
 	</head>
 	<body>
 		<header>
@@ -19,9 +25,21 @@
 		</nav>
 		</header>
 	<br>
-		<div class="hoverItem">Hover Over To Alert</div>
-		<script src="scripts\test.js" type="text/javascript">
+		<h4>Add Numbers</h4>
+		<p>
+			<input id="num-one"> + <input id="num-two">
+		</p>
+		<p id="add-sum"></p>
+
+		<h4>Images</h4>
+		<ul>
+			<li><a id="creeper" data-img="creeper-pic" href="#">Creeper</a></li>
+		</ul>
+
+		<img class="hide" id="creeper-pic" src="http://vignette1.wikia.nocookie.net/minecraft/images/4/48/150px-Creeper.png/revision/latest?cb=20140101094930" />
+		<script src="scripts\selectors.js" type="text/javascript">
 
 		</script>
+
 	</body>
 </html>
