@@ -3,7 +3,8 @@ var numOne = document.getElementById("num-one");
 var numTwo = document.getElementById("num-two");
 var addSum = document.getElementById("add-sum");
 var creeper = document.getElementById('creeper');
-var creeperPic = document.getElementById('creeper-pic');
+var steve = document.getElementById('steve');
+var ender = document.getElementById('ender');
 
 //Script
 numOne.addEventListener("input", add);
@@ -15,11 +16,22 @@ numTwo.addEventListener("input", add);
    addSum.innerHTML = "your sum is: "+ (one+two);
  }
 
+ creeper.addEventListener("click", picLink);
+ steve.addEventListener("click", picLink);
+ ender.addEventListener("click", picLink);
 
-creeper.addEventListener("click", function() {
-  if (creeperPic.className == "hide") {
-     creeperPic.className = "";
-  } else {
-    creeperPic.className = "hide";
-  }
-});
+ function picLink() {
+   var allImages = document.querySelectorAll("img");
+
+   for (var i = 0; i < allImages.length; i++) {
+     allImages[i].className = "hide";
+   }
+
+   var picId = this.attributes["data-img"].value;
+   var pic = document.getElementById(picId);
+   if (pic.className === "hide") {
+     pic.className = "";
+   } else {
+     pic.className = "hide";
+   }
+ }

@@ -9,6 +9,9 @@
 		<link rel="favicon" href="styles\favicon.png" type="image/x-icon" />
 		<style>
 			.hide {display:none;}
+			li input {display:none;}
+			li.edit span {display:none;}
+			li.edit input {display:initial;}
 		</style>
 	</head>
 	<body>
@@ -34,9 +37,33 @@
 		<h4>Images</h4>
 		<ul>
 			<li><a id="creeper" data-img="creeper-pic" href="#">Creeper</a></li>
+			<li><a id="steve" data-img="steve-pic" href="#">Steve</a></li>
+			<li><a id="ender" data-img="ender-pic" href="#">Ender Dragon</a></li>
 		</ul>
 
 		<img class="hide" id="creeper-pic" src="http://vignette1.wikia.nocookie.net/minecraft/images/4/48/150px-Creeper.png/revision/latest?cb=20140101094930" />
+		<img class="hide" id="steve-pic" src="http://vignette2.wikia.nocookie.net/smashbroslawlorigins/images/e/ed/Mob1.png/revision/latest?cb=20130427035733" />
+		<img class="hide" id="ender-pic" src="http://vignette3.wikia.nocookie.net/minecraft/images/5/5a/Ender_Dragon.png/revision/latest?cb=20111119071911" />
+
+		<h4>Checklist</h4>
+	<ul id="checklist">
+		<li>
+			<span>Apples</span>
+			<input value="Apples" />
+		</li>
+		<li>
+			<span>Bananas</span>
+			<input value="Bananas" />
+		</li>
+		<li>
+			<span>Carrots</span>
+			<input value="Carrots" />
+		</li>
+	</ul>
+<h3 id="newItem">Add New</h3>
+
+
+		<script src="scripts\checklist.js" type="text/javascript">		</script>
 		<script src="scripts\selectors.js" type="text/javascript">
 
 		</script>
