@@ -1,0 +1,1 @@
+fname = document.getElementsByClassName('askItem');

@@ -16,6 +16,13 @@ numTwo.addEventListener("input", add);
    addSum.innerHTML = "your sum is: "+ (one+two);
  }
 
+
+
+
+
+
+
+
  creeper.addEventListener("click", picLink);
  steve.addEventListener("click", picLink);
  ender.addEventListener("click", picLink);
@@ -29,7 +36,7 @@ numTwo.addEventListener("input", add);
 
    var picId = this.attributes["data-img"].value;
    var pic = document.getElementById(picId);
-   if (pic.className === "hide") {
+   if (pic.className == "hide") {
      pic.className = "";
    } else {
      pic.className = "hide";

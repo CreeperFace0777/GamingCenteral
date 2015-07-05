@@ -1,6 +1,6 @@
 //Variables
 var checklist = document.getElementById("checklist");
-var newLi = document.getElementById("NewItem");
+var newLi = document.getElementById("newItem");
 var items = checklist.querySelectorAll("li");
 var inputs = checklist.querySelectorAll("input");
 
@@ -10,7 +10,6 @@ for (var i = 0; i < items.length; i++) {
   inputs[i].addEventListener("blur", updateItem);
   inputs[i].addEventListener("keypress", itemKeypress);
 }
-newLi.addEventListener("click", newElement);
 
 function editItem() {
   this.className = "edit";
@@ -29,8 +28,4 @@ function itemKeypress(event) {
   if (event.which == 13) {
     updateItem.call(this);
   }
-}
-
-function newElement() {
-  
 }
