@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Gaming Centeral</title>
+		<link rel="stylesheet" type="text/css" href="scripts/main.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
+		<link rel="shortcut icon" href="styles/favicon.png" type="image/x-icon" />
+		<link rel="favicon" href="styles/favicon.png" type="image/x-icon" />
+	</head>
+	<body>
+		<header>
+		<nav>
+			<h1>Menu</h1>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="games.html">Games</a></li>
+				<li id="atPad"><a href="About.html">About</a></li>
+				<li><a href="Images And Videos.html">Videos & Images</a></li>
+				<span id="menuDiv">
+					<li><a href="Sign Up.html">Register</a></li>
+					<li><a href="Login.html">Log In</a></li>
+				</span>
+			</ul>
+			<hr>
+		</nav>
+		</header>
+	<br>
+<!-- <input type="password" name="password" placeholder="Password" id="password" required title="Make It Safe!">
+ <label for="email">Email: </label><input type="text" name="email" id="email" placeholder="Email" required pattern="[a-zA-z]{3,}@[a-zA-z]{3,}[.]{1}[a-zA-z]{2,}" title="Please Enter A Valid Email"> -->
+
+<form id="signForm">
+	<p id="formP">
+		Enything With A * Is Mnditory
+	</p>
+  <fieldset>
+    <legend>Login Credentials</legend>
+    <label for="username">Username: </label><input class="signitem" type="text" name="username" placeholder="Username" id="username" required autofocus pattern="[a-zA-z]{3,}" title="Please Add Over 4 Characters">
+    <br>
+    <br>
+    <label for="password">Password: </label><input class="signitem" type="password" name="password" placeholder="Password" id="password" required title="Make It Safe!">
+    <br>
+    <br>
+    <label for="repeatpassword">Confirm Password: </label><input type="password" class="signitem" name="repeatpassword" placeholder="Repeat Password" id="repeatpassword" required  title="Please Repeat You Password">
+  </fieldset>
+<br>
+  <fieldset>
+  <legend>Security Questions</legend>
+  <label for="securityquestion">Enter You Security Question: </label><select class="signitem" name="securityquestion" id="securityquestion">
+        <option value="Select">Please Select One...</option>
+        <option value="Where Did You Grow Up">Where Did You Grow Up</option>
+        <option value="What Is Your Mothers Maiden Name">What Is Your Mothers Maiden Name</option>
+        <option value="What Was You First Pets Name">What Was You First Pets Name</option>
+        <option value="What Is The Name Of The Person That You First Kissed">What Is The Name Of The Person That You First Kissed</option>
+        <option value="What Are The Characters Of Your Number Plate">What Are The Characters Of Your Number Plate</option>
+  </select>
+  <span id=securityanswer><label for="answer">  Answer Your Security Question: </label><input class="signitem" type="text" name="answer" placeholder="Answer" id="answer" required></span>
+  <br>
+  <br>
+  <label for="pin">4 Digit Pin For Secondary Backup: </label><input id="pin" class="signitem" type="text" name="pin" placeholder="Enter 4 Digit Pin" pattern="[0-9]{4}" title="Must Be Only 4 Numbers">
+  </fieldset>
+	<fieldset>
+	<legend>Personal Data</legend>
+	<label for="name">Name: </label><input type="text" name="name" placeholder="Name" required class="signitem" id="name" pattern="[^0-9]+" title="Since when has your name had numbers?!">
+	<br>
+	<br>
+	<label for="email">Email: </label><input type="text" name="email" id="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+/.[a-z]{2,3}$" title="Enter a valid email">
+	<br>
+	<br>
+	<label for="date">DOB (Date Of Birth): </label><input type="date" name="date" id="date" class="signitem" placeholder="DOB" required>
+</fieldset>
+	<br>
+	<input type="submit" name="submit" value="Signup Now!" class="signitem" id="submit">
+</form>
+
+<script type="text/javascript" src="scripts/signedup.js"></script>
+
+
+	</body>
+</html>

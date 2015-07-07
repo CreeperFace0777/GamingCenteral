@@ -3,6 +3,20 @@ body {
 	font-family: GROBOLD;
 }
 
+#formP {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.signitem {
+	border-radius: 5px;
+	padding-left: 3px;
+}
+
+.signitem:focus {
+		outline: none;
+}
+
 header nav ul li {
 	display: inline-block;
 	font-size: 30px;
@@ -24,6 +38,10 @@ header nav ul li {
 	padding: 0px 5px 2px 0px;
 	margin: 0px;
 	position: relative;
+}
+
+#securityanswer {
+	padding-left: 4px;
 }
 
 header nav ul{
@@ -65,4 +83,9 @@ header nav hr {
 	-webkit-margin: 0px;
 	border-style: solid;
 	border-color: black;
+}
+
+#menuDiv {
+	position: relative;
+	left: 450px;
 }
