@@ -16,3 +16,23 @@
 	url('Minecraftia-Regular.ttf') format('opentype');
 }
 
+@font-face {
+	font-family: "UrbanJungleDEMO";
+	src: url('fonts/UrbanJungleDEMO.eot') format('embedded-opentype'),
+	url('UrbanJungleDEMO.ttf') format('opentype');
+}
+@font-face {
+	font-family: "KGALittleSwag";
+	src: url('fonts/KGALittleSwag.eot') format('embedded-opentype'),
+	url('KGALittleSwag.ttf') format('opentype');
+}
+@font-face {
+	font-family: "HomeSchool";
+	src: url('fonts/Home School.eot') format('embedded-opentype'),
+	url('Home School.ttf') format('opentype');
+}
+@font-face {
+	font-family: "CFBoston";
+	src: url('fonts/CFBoston-Regular.eot') format('embedded-opentype'),
+	url('CFBoston-Regular.ttf') format('opentype');
+}

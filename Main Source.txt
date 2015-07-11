@@ -9,22 +9,28 @@
 	</head>
 	<body>
 		<header>
+				<br>
+			<div class="fancy">
+				<img id="control" src="Styles/play5.gif" alt="Home Img" />
+					<h4>Gaming <span id="headerC">C</span>enteral</h4>
+			</div>
+			<br>
+			<br>
 		<nav>
 			<h1>Menu</h1>
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="games.html">Games</a></li>
-				<li id="atPad"><a href="About.html">About</a></li>
-				<li><a href="Images And Videos.html">Videos & Images</a></li>
+				<li>Home</li>
+				<li><a class="hoverChange" href="games.html">Games</a></li>
+				<li id="atPad"><a class="hoverChange"  href="About.html">About</a></li>
+				<li><a class="hoverChange" href="Images And Videos.html">Videos & Images</a></li>
 				<span id="menuDiv">
-					<li><a href="Sign Up.html">Register</a></li>
-					<li><a href="Login.html">Log In</a></li>
-				</span>
+          <li><a class="hoverChange" href="Sign Up.html">Register</a></li>
+          <li><a class="hoverChange" href="Login.html">Log In</a></li>
+        </span>
 			</ul>
-			<hr>
 		</nav>
 		</header>
-	<br>
-
+			<br>
+		<script type="text/javascript" src="scripts/mainpage.js"></script>
 	</body>
 </html>
