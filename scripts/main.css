@@ -1,6 +1,7 @@
 body {
 	background: #66e6ac;
 	font-family: GROBOLD;
+	overflow-y: scroll;
 }
 
 #formP {
