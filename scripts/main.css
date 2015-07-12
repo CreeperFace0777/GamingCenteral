@@ -18,6 +18,10 @@ body {
 		outline: none;
 }
 
+#nav_wrapper {
+	text-align: left;
+	margin: 0 auto;
+}
 header nav ul li {
 	display: inline-block;
 	font-size: 30px;
@@ -28,9 +32,22 @@ header nav ul li {
 	list-style-type: none;
 }
 
+header nav ul li:hover {
+	background-color: rgba(55, 128, 95, 0.28);
+}
+
+header nav ul li a, visited{
+	display: block;
+	padding: 5px
+}
+
 header nav h1 {
 		padding-left: 4px;
 		margin-left: 10px;
+}
+
+#navigation {
+	background-color: rgba(55, 128, 95, 0.20);
 }
 
 header {
@@ -85,12 +102,6 @@ header {
 		text-align: center;
 }
 
-#atPad {
-	padding: 0px 0px 0px 10px;
-	-moz-padding: 0px 0px 0px 10px;
-	-webkit-padding: 0px 0px 0px 10px;
-}
-
 #EAR {
 	width: 20%;
 	padding: 0px 5px 2px 0px;
@@ -110,6 +121,7 @@ header nav ul{
 	margin: 0px;
 	-moz-margin: 0px;
 	-webkit-margin: 0px;
+	position: relative;
 }
 
 header nav h1 {
@@ -145,5 +157,17 @@ header nav hr {
 
 #menuDiv {
 	position: relative;
-	left: 35%;
+	left: 30%;
+}
+
+header nav ul ul {
+	display: none;
+	position: absolute;
+	margin: 0 auto;
+	width: 960px;
+	text-align: left;
+}
+
+header nav ul li:hover ul {
+	display: block;
 }
