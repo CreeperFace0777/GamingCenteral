@@ -4,11 +4,17 @@
 		<title>Gaming Centeral</title>
 		<link rel="stylesheet" type="text/css" href="scripts\main.css" />
 		<link rel="stylesheet" type="text/css" href="fonts\fonts.css" />
+		<link rel="stylesheet" type="text/css" href="scripts\animate.css" />
 		<link rel="shortcut icon" href="styles\favicon.png" type="image/x-icon" />
 		<link rel="favicon" href="styles\favicon.png" type="image/x-icon" />
+		<script type="text/javascript" src="scripts\wow.min.js"></script>
+
+		<script type="text/javascript">
+			new WOW().init()
+		</script>
 	</head>
 	<body>
-		<header>
+		<header class="wow tada animated">
 				<br>
 			<div class="fancy">
 				<img id="control" src="Styles/play5.gif" alt="Home Img" />
@@ -16,7 +22,7 @@
 			</div>
 			<br>
 			<br>
-		<nav>
+		<nav id="navigation">
 			<h1>Menu</h1>
 			<ul>
 				<li>Home</li>
@@ -30,11 +36,11 @@
 			</ul>
 		</nav>
 		</header>
+		<div class="main">
 			<br>
 		<img id="EAR" src="styles\Enter At Risk.jpg" alt="Gaming 'Enter At Risk'" align="right">
 		<h1 class="welcome">Welcome!</h1>
-
-
+	</div>
 		<script type="text/javascript" src="scripts/mainpage.js"></script>
 	</body>
 </html>
